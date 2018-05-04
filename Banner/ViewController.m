@@ -7,23 +7,21 @@
 //
 
 #import "ViewController.h"
+#import "BViewController.h"
 
-@interface ViewController ()
-
-@end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)present:(id)sender {
+    [self.navigationController pushViewController:[BViewController new] animated:YES];
 }
 
+- (void)dealloc {
+    NSLog(@"view controller dealloc");
+}
 
 @end

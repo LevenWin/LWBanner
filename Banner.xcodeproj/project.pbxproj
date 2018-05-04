@@ -15,6 +15,13 @@
 		0D11B620209AE9C9000B8B5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D11B61F209AE9C9000B8B5C /* main.m */; };
 		0D11B62A209AE9CA000B8B5C /* BannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D11B629209AE9CA000B8B5C /* BannerTests.m */; };
 		0D11B635209AE9CA000B8B5C /* BannerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D11B634209AE9CA000B8B5C /* BannerUITests.m */; };
+		0D11B64D209AEF03000B8B5C /* LWImageBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D11B64C209AEF03000B8B5C /* LWImageBannerView.m */; };
+		0D11B650209AF4E1000B8B5C /* LWBannerColorItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D11B64F209AF4E1000B8B5C /* LWBannerColorItemView.m */; };
+		0D11B652209AF502000B8B5C /* LWBannerColorItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D11B651209AF502000B8B5C /* LWBannerColorItemView.xib */; };
+		0D11B655209AF5B3000B8B5C /* LWBannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D11B654209AF5B3000B8B5C /* LWBannerModel.m */; };
+		0D11B659209AFFDB000B8B5C /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D11B657209AFFDB000B8B5C /* BViewController.m */; };
+		0D11B65E209BE345000B8B5C /* LWBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D11B65D209BE344000B8B5C /* LWBannerView.m */; };
+		865F2672715F1E5974FA4D53 /* libPods-Banner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C87FB6DE5E5FEB81523DE1EE /* libPods-Banner.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,20 @@
 		0D11B630209AE9CA000B8B5C /* BannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D11B634209AE9CA000B8B5C /* BannerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerUITests.m; sourceTree = "<group>"; };
 		0D11B636209AE9CA000B8B5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D11B64B209AEF03000B8B5C /* LWImageBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWImageBannerView.h; sourceTree = "<group>"; };
+		0D11B64C209AEF03000B8B5C /* LWImageBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWImageBannerView.m; sourceTree = "<group>"; };
+		0D11B64E209AF4E1000B8B5C /* LWBannerColorItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWBannerColorItemView.h; sourceTree = "<group>"; };
+		0D11B64F209AF4E1000B8B5C /* LWBannerColorItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWBannerColorItemView.m; sourceTree = "<group>"; };
+		0D11B651209AF502000B8B5C /* LWBannerColorItemView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LWBannerColorItemView.xib; sourceTree = "<group>"; };
+		0D11B653209AF5B3000B8B5C /* LWBannerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWBannerModel.h; sourceTree = "<group>"; };
+		0D11B654209AF5B3000B8B5C /* LWBannerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWBannerModel.m; sourceTree = "<group>"; };
+		0D11B656209AFFDB000B8B5C /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		0D11B657209AFFDB000B8B5C /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		0D11B65C209BE344000B8B5C /* LWBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWBannerView.h; sourceTree = "<group>"; };
+		0D11B65D209BE344000B8B5C /* LWBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWBannerView.m; sourceTree = "<group>"; };
+		C87FB6DE5E5FEB81523DE1EE /* libPods-Banner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Banner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8FCFB23812D721A944C60F7 /* Pods-Banner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banner.release.xcconfig"; path = "Pods/Target Support Files/Pods-Banner/Pods-Banner.release.xcconfig"; sourceTree = "<group>"; };
+		FF28A138058A979148661DD4 /* Pods-Banner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Banner/Pods-Banner.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				865F2672715F1E5974FA4D53 /* libPods-Banner.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +107,8 @@
 				0D11B628209AE9CA000B8B5C /* BannerTests */,
 				0D11B633209AE9CA000B8B5C /* BannerUITests */,
 				0D11B60E209AE9C9000B8B5C /* Products */,
+				DE7F7862D600B4C608A3F224 /* Pods */,
+				742BC1CBF8A953B342BDD21A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +129,9 @@
 				0D11B611209AE9C9000B8B5C /* AppDelegate.m */,
 				0D11B613209AE9C9000B8B5C /* ViewController.h */,
 				0D11B614209AE9C9000B8B5C /* ViewController.m */,
+				0D11B656209AFFDB000B8B5C /* BViewController.h */,
+				0D11B657209AFFDB000B8B5C /* BViewController.m */,
+				0D11B642209AE9FC000B8B5C /* Banner */,
 				0D11B616209AE9C9000B8B5C /* Main.storyboard */,
 				0D11B619209AE9C9000B8B5C /* Assets.xcassets */,
 				0D11B61B209AE9C9000B8B5C /* LaunchScreen.storyboard */,
@@ -132,6 +159,47 @@
 			path = BannerUITests;
 			sourceTree = "<group>";
 		};
+		0D11B642209AE9FC000B8B5C /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				0D11B65B209BE344000B8B5C /* Base */,
+				0D11B64B209AEF03000B8B5C /* LWImageBannerView.h */,
+				0D11B64C209AEF03000B8B5C /* LWImageBannerView.m */,
+				0D11B64E209AF4E1000B8B5C /* LWBannerColorItemView.h */,
+				0D11B64F209AF4E1000B8B5C /* LWBannerColorItemView.m */,
+				0D11B651209AF502000B8B5C /* LWBannerColorItemView.xib */,
+				0D11B653209AF5B3000B8B5C /* LWBannerModel.h */,
+				0D11B654209AF5B3000B8B5C /* LWBannerModel.m */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		0D11B65B209BE344000B8B5C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0D11B65C209BE344000B8B5C /* LWBannerView.h */,
+				0D11B65D209BE344000B8B5C /* LWBannerView.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		742BC1CBF8A953B342BDD21A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C87FB6DE5E5FEB81523DE1EE /* libPods-Banner.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE7F7862D600B4C608A3F224 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF28A138058A979148661DD4 /* Pods-Banner.debug.xcconfig */,
+				E8FCFB23812D721A944C60F7 /* Pods-Banner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D11B639209AE9CA000B8B5C /* Build configuration list for PBXNativeTarget "Banner" */;
 			buildPhases = (
+				BF4C55E5A8AC113FA685909A /* [CP] Check Pods Manifest.lock */,
 				0D11B609209AE9C9000B8B5C /* Sources */,
 				0D11B60A209AE9C9000B8B5C /* Frameworks */,
 				0D11B60B209AE9C9000B8B5C /* Resources */,
+				BA141A1E4FF2FA0B6A23C003 /* [CP] Embed Pods Frameworks */,
+				96874AF77FC68F094652EE4A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D11B652209AF502000B8B5C /* LWBannerColorItemView.xib in Resources */,
 				0D11B61D209AE9C9000B8B5C /* LaunchScreen.storyboard in Resources */,
 				0D11B61A209AE9C9000B8B5C /* Assets.xcassets in Resources */,
 				0D11B618209AE9C9000B8B5C /* Main.storyboard in Resources */,
@@ -260,13 +332,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		96874AF77FC68F094652EE4A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Banner/Pods-Banner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA141A1E4FF2FA0B6A23C003 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Banner/Pods-Banner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF4C55E5A8AC113FA685909A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0D11B609209AE9C9000B8B5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D11B64D209AEF03000B8B5C /* LWImageBannerView.m in Sources */,
 				0D11B615209AE9C9000B8B5C /* ViewController.m in Sources */,
 				0D11B620209AE9C9000B8B5C /* main.m in Sources */,
+				0D11B655209AF5B3000B8B5C /* LWBannerModel.m in Sources */,
+				0D11B659209AFFDB000B8B5C /* BViewController.m in Sources */,
+				0D11B65E209BE345000B8B5C /* LWBannerView.m in Sources */,
+				0D11B650209AF4E1000B8B5C /* LWBannerColorItemView.m in Sources */,
 				0D11B612209AE9C9000B8B5C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +553,7 @@
 		};
 		0D11B63A209AE9CA000B8B5C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF28A138058A979148661DD4 /* Pods-Banner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +567,7 @@
 		};
 		0D11B63B209AE9CA000B8B5C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8FCFB23812D721A944C60F7 /* Pods-Banner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
